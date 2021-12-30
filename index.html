@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 happy new year 2022 🎁</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="enter-password" id="password">
+        <div class="topic">🎁 ใส่ Pincode ของไอต้าว 🎁</div>
+        <div class="header">
+            <div class="dot" id="dot1"></div>
+            <div class="dot" id="dot2"></div>
+            <div class="dot" id="dot3"></div>
+            <div class="dot" id="dot4"></div>
+        </div>
+        <div class="form-info">
+            <div class="btn" onclick="onClickBtn(1)" >1</div>
+            <div class="btn" onclick="onClickBtn(2)" >2</div>
+            <div class="btn" onclick="onClickBtn(3)" >3</div>
+            <div class="btn" onclick="onClickBtn(4)" >4</div>
+            <div class="btn" onclick="onClickBtn(5)" >5</div>
+            <div class="btn" onclick="onClickBtn(6)" >6</div>
+            <div class="btn" onclick="onClickBtn(7)" >7</div>
+            <div class="btn" onclick="onClickBtn(8)" >8</div>
+            <div class="btn" onclick="onClickBtn(9)" >9</div>
+            <div></div>
+            <div class="btn" onclick="onClickBtn(0)" >0</div>
+            <div class="btn" onclick="onClickBtn(-1)" >ลบ</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+    <div class="display-happy-new-year" id="display">
+        <div class="topic">✨ HAPPY NEW YEAR 2022 ✨</div>
+        <div class="name" >"<span id="name"></span>"</div>
+        <div class="content" id="content"></div>
+        <div class="name">🎵 เพลงสำหรับ "<span id="name2"></span>" 🎵</div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <iframe id="youtube" src="https://www.youtube.com/embed/5OtqLbG6T04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="content" style="text-align: center; margin-top: 5px;">(หากเพลงไม่แสดงให้กดที่ ดูบนยูทูป)</div>
+    </div>
+</body>
+</html>
